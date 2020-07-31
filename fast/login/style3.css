@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1e293a;
+/*background: url('Icons/images\(34\).jpg') no-repeat ;*/
+
+}
+#login .label{
+    color: dodgerblue;
+    text-align: center;
+    top: -20px;
+ float: left;
+    margin-bottom: 50px;
+    margin: -89px 0px  0px  10px ;
+    font-size: 30px;
+    padding:1px;
+    border-bottom: 4px solid #fff;
+}
+.label:hover{
+    color: black;
+    border-bottom: 4px solid dodgerblue;
+}
+#login .all{
+width: 360px;
+height: 420px;
+height: auto;
+box-sizing: border-box;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+padding: 120px 20px ;
+background: rgb(238, 212, 212);
+border-radius: 30px;
+margin: 10px 10px 10px 15px ;
+
+}
+.username{
+    width: 80%;
+overflow: hidden;
+outline: none;
+font-size: 15px;
+border: none; 
+margin-bottom:5px;
+padding-bottom: 3px;
+margin:0px 0px 10px 0px;
+border-bottom: 2px solid #0e0d0d;
+ font-style: italic;
+
+ background: transparent;
+
+}
+.password{
+width: 80%;
+overflow: hidden;
+outline: none;
+font-size: 15px;
+border: none;
+font-style: italic;
+
+border-bottom: 2px solid #0e0d0d;
+background: transparent;
+color: tomato;
+
+
+}
+img{
+    width: 20px;
+    float: left;
+    text-align: center;
+ 
+   margin-left: 8px;
+    margin-bottom: -4px;
+    margin-top: 1px;
+    border-bottom: 2px solid #0e0d0d;
+}
+.user{
+margin-top: 3px;
+}
+.btn{
+    width: 80%;
+    background: #1e293a;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+   
+   outline: none;
+   
+     border: 1px solid transparent;
+border-radius: 25px ;
+    margin: 35px 0px 5px 17px;
+
+}
+.btn:hover{
+    background: #fff;
+    color: black;
+    transition: 2s;
+    border:2px solid #1e293a;
+    
+}
